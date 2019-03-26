@@ -22,5 +22,5 @@ The methodology is quite similar to that one explained in this article:
 # Files
 
 - __*pvalues.txt*__: Dataset with pvalues coming from different statistical tests.
-- __*pvalue_distribution_mixture.R*__: Main script to determine the proportion of p-values coming from the null hypothesis ($H_0$)
+- __*pvalue_distribution_mixture.R*__: Main script to determine the proportion of p-values coming from the null hypothesis (H<sup>0</sup>)
 - __*pvalue_distribution_mixture_functions.R*__: functions to run the main script. Mainly, the implementation of the likelihood functions.
