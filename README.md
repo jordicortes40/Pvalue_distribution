@@ -13,7 +13,7 @@ Specifically, next mixture distributions were fitted:
 3. Uniform distribution + 2 triangular distributions
 4. Uniform distribution + 2 exponential distributions
 
-Using a sample of p-values, the aim of this example is to estimate the proportion of p-values comming from the Null Hypothesis of several tests (regardless of your type) with distribution U(0,1)
+Using a sample of p-values, the aim of this example is to estimate the proportion of p-values comming from the null hypothesis (H<sub>0</sub>) of several tests (regardless of your type) with distribution U(0,1)
 
 The methodology is quite similar to that one explained in this article:
 
@@ -22,5 +22,5 @@ The methodology is quite similar to that one explained in this article:
 # Files
 
 - __*pvalues.txt*__: Dataset with pvalues coming from different statistical tests.
-- __*pvalue_distribution_mixture.R*__: Main script to determine the proportion of p-values coming from the null hypothesis (H<sup>0</sup>)
+- __*pvalue_distribution_mixture.R*__: Main script to determine the proportion of p-values coming from the null hypothesis (H<sub>0</sub>)
 - __*pvalue_distribution_mixture_functions.R*__: functions to run the main script. Mainly, the implementation of the likelihood functions.
